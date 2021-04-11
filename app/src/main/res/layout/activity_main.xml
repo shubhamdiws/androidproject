@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background=" #f2f2f2"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="95dp"
+        android:src="@drawable/android"
+        tools:ignore="MissingConstraints">
+    </androidx.appcompat.widget.AppCompatImageView>
+
+    <EditText
+        android:id="@+id/Edit_text1"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:hint="Your Mobile"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:background="@drawable/textviewcorner"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal">
+
+
+    </EditText>
+    <Button
+        android:id="@+id/Lgn_1"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/buttonstyle"
+        android:hint="LOGIN"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="19dp"></Button>
+    <RelativeLayout
+        android:id="@+id/relat_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dont_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an Account?"
+            android:textColor="#990099"
+            android:textSize="13dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="89dp"
+            android:layout_marginTop="40dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/sign_up1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Sign Up"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:textColor="#990099"
+            android:layout_marginLeft="225dp">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
